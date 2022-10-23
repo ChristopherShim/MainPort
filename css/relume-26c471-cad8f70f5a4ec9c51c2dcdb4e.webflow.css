@@ -5232,7 +5232,7 @@ figcaption {
   }
 
   .heading-style-h6.email-tag.font-sfmono.text-size-small.text-color-new-grey {
-    display: block;
+    display: none;
   }
 
   .header1_component {
