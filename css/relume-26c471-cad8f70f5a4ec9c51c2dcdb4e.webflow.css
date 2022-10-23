@@ -3859,6 +3859,10 @@ figcaption {
   color: #f7f5f7;
 }
 
+.text-color-new-white.menu-text:hover {
+  color: #f67d2f;
+}
+
 .text-color-new-orange {
   color: #f67d2f;
 }
