@@ -77,7 +77,7 @@ function intro() {
 
     gsap.from(".gsap10", {
         scrollTrigger:{
-            trigger:".gsap9",
+            trigger:".gsap10",
             start:"top 60%"
         },
         opacity:0,
