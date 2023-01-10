@@ -27,6 +27,11 @@ function intro() {
       opacity:0,
       y:25,
    })
+   title.from(".gsap5", {
+      duration: 0.5,
+      opacity:0,
+      y:25,
+   })
 
 }
 
