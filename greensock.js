@@ -30,7 +30,7 @@ gsap.from(".gsap8", {
  opacity:0,
 });
 
-gsap.from(".gsap9", {
+gsap.from(".mode-image", {
    scrollTrigger:{
       trigger:".project-trigger",
       start: "top 60%"
@@ -40,7 +40,7 @@ gsap.from(".gsap9", {
  opacity:0,
 });
 
-gsap.from(".gsap10", {
+gsap.from(".mode-text", {
    scrollTrigger:{
       trigger:".project-trigger",
       start: "top 60%"
@@ -50,7 +50,7 @@ gsap.from(".gsap10", {
  opacity:0,
 });
 
-gsap.from(".gsap11", {
+gsap.from(".marble-text", {
    scrollTrigger:{
       trigger:".project-trigger",
       start: "top 40%"
@@ -60,7 +60,7 @@ gsap.from(".gsap11", {
  opacity:0,
 });
 
-gsap.from(".gsap12", {
+gsap.from(".marble-image", {
    scrollTrigger:{
       trigger:".project-trigger",
       start: "top 40%"
@@ -70,17 +70,17 @@ gsap.from(".gsap12", {
  opacity:0,
 });
 
-gsap.from(".gsap13", {
+gsap.from(".foundry-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top 60%"
    },
  x: -100,
  duration: 1,
  opacity:0,
 });
 
-gsap.from(".gsap14", {
+gsap.from(".foundry-text", {
    scrollTrigger:{
       trigger:".project-trigger",
       start: "top 20%"
@@ -90,17 +90,57 @@ gsap.from(".gsap14", {
  opacity:0,
 });
 
-gsap.from(".gsap15", {
+gsap.from(".mock-text", {
    scrollTrigger:{
-      trigger:".gsap14",
-      start: "top 50%"
+      trigger:".project-trigger",
+      start: "top 20%"
    },
  x: -100,
  duration: 1,
  opacity:0,
 });
 
-gsap.from(".gsap16", {
+gsap.from(".mock-image", {
+   scrollTrigger:{
+      trigger:".project-trigger",
+      start: "top 20%"
+   },
+ x: 100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".portfolio-image", {
+   scrollTrigger:{
+      trigger:".project-trigger",
+      start: "top 20%"
+   },
+ x: -100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".portfolio-text", {
+   scrollTrigger:{
+      trigger:".project-trigger",
+      start: "top 20%"
+   },
+ x: 100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".preloader-title-text", {
+   scrollTrigger:{
+      trigger:".preloader-trigger",
+      start: "top 40%"
+   },
+ x: -100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".magazine-text", {
    scrollTrigger:{
       trigger:".preloader-trigger",
       start: "top 60%"
@@ -110,7 +150,7 @@ gsap.from(".gsap16", {
  opacity:0,
 });
 
-gsap.from(".gsap17", {
+gsap.from(".magazine-image", {
    scrollTrigger:{
       trigger:".preloader-trigger",
       start: "top 60%"
@@ -120,17 +160,7 @@ gsap.from(".gsap17", {
  opacity:0,
 });
 
-gsap.from(".gsap18", {
-   scrollTrigger:{
-      trigger:".preloader-trigger",
-      start: "top 40%"
-   },
- x: -100,
- duration: 1,
- opacity:0,
-});
-
-gsap.from(".gsap19", {
+gsap.from(".cruise-text", {
    scrollTrigger:{
       trigger:".preloader-trigger",
       start: "top 40%"
@@ -140,7 +170,17 @@ gsap.from(".gsap19", {
  opacity:0,
 });
 
-gsap.from(".gsap20", {
+gsap.from(".cruise-image", {
+   scrollTrigger:{
+      trigger:".preloader-trigger",
+      start: "top 40%"
+   },
+ x: -100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".snow-text", {
    scrollTrigger:{
       trigger:".preloader-trigger",
       start: "top 20%"
@@ -150,7 +190,7 @@ gsap.from(".gsap20", {
  opacity:0,
 });
 
-gsap.from(".gsap21", {
+gsap.from(".snow-image", {
    scrollTrigger:{
       trigger:".preloader-trigger",
       start: "top 20%"
@@ -160,7 +200,7 @@ gsap.from(".gsap21", {
  opacity:0,
 });
 
-gsap.from(".gsap22", {
+gsap.from(".end-text", {
    scrollTrigger:{
       trigger:".end-trigger",
       start: "top 60%"
