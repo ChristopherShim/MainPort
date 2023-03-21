@@ -33,7 +33,7 @@ gsap.from(".gsap8", {
 gsap.from(".rpc-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 60%"
+      start: "top 10%"
    },
  x: 100,
  duration: 1,
@@ -43,7 +43,7 @@ gsap.from(".rpc-image", {
 gsap.from(".rpc-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 60%"
+      start: "top 10%"
    },
  x: -100,
  duration: 1,
@@ -53,7 +53,7 @@ gsap.from(".rpc-text", {
 gsap.from(".mode-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 60%"
+      start: "top 0%"
    },
  x: -100,
  duration: 1,
@@ -63,7 +63,7 @@ gsap.from(".mode-image", {
 gsap.from(".mode-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 60%"
+      start: "top 0%"
    },
  x: 100,
  duration: 1,
@@ -73,7 +73,7 @@ gsap.from(".mode-text", {
 gsap.from(".marble-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 40%"
+      start: "top -10%"
    },
  x: -100,
  duration: 1,
@@ -83,7 +83,7 @@ gsap.from(".marble-text", {
 gsap.from(".marble-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 40%"
+      start: "top -10%"
    },
  x: 100,
  duration: 1,
@@ -93,7 +93,7 @@ gsap.from(".marble-image", {
 gsap.from(".foundry-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 60%"
+      start: "top -20%"
    },
  x: -100,
  duration: 1,
@@ -103,7 +103,7 @@ gsap.from(".foundry-image", {
 gsap.from(".foundry-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top -20%"
    },
  x: 100,
  duration: 1,
@@ -113,7 +113,7 @@ gsap.from(".foundry-text", {
 gsap.from(".mock-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top -60%"
    },
  x: -100,
  duration: 1,
@@ -123,7 +123,7 @@ gsap.from(".mock-text", {
 gsap.from(".mock-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top -60%"
    },
  x: 100,
  duration: 1,
@@ -133,7 +133,7 @@ gsap.from(".mock-image", {
 gsap.from(".portfolio-image", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top -80%"
    },
  x: -100,
  duration: 1,
@@ -143,7 +143,7 @@ gsap.from(".portfolio-image", {
 gsap.from(".portfolio-text", {
    scrollTrigger:{
       trigger:".project-trigger",
-      start: "top 20%"
+      start: "top -80%"
    },
  x: 100,
  duration: 1,
@@ -223,7 +223,7 @@ gsap.from(".snow-image", {
 gsap.from(".end-text", {
    scrollTrigger:{
       trigger:".end-trigger",
-      start: "top 60%"
+      start: "top 30%"
    },
  y: 100,
  duration: 1,
