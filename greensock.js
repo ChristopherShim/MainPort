@@ -30,6 +30,26 @@ gsap.from(".gsap8", {
  opacity:0,
 });
 
+gsap.from(".rpc-image", {
+   scrollTrigger:{
+      trigger:".project-trigger",
+      start: "top 60%"
+   },
+ x: 100,
+ duration: 1,
+ opacity:0,
+});
+
+gsap.from(".rpc-text", {
+   scrollTrigger:{
+      trigger:".project-trigger",
+      start: "top 60%"
+   },
+ x: -100,
+ duration: 1,
+ opacity:0,
+});
+
 gsap.from(".mode-image", {
    scrollTrigger:{
       trigger:".project-trigger",
