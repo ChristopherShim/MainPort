@@ -2847,6 +2847,7 @@ figcaption {
 }
 
 .copied_text {
+  position: relative;
   display: flex;
   color: #f67d2f;
   font-size: 2rem;
