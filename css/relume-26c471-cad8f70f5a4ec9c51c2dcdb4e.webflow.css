@@ -3622,6 +3622,61 @@ figcaption {
   grid-row-end: span 1;
 }
 
+#w-node-_0edf51c9-2138-5d81-5831-b1100105a8f3-95a9148b {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 7;
+  grid-column-end: 8;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_0edf51c9-2138-5d81-5831-b1100105a8f6-95a9148b {
+  -ms-grid-column: 7;
+  grid-column-start: 7;
+  -ms-grid-column-span: 6;
+  grid-column-end: 13;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_0edf51c9-2138-5d81-5831-b1100105a8ff-95a9148b {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_0edf51c9-2138-5d81-5831-b1100105a906-95a9148b {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 6;
+  grid-column-end: 7;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_0edf51c9-2138-5d81-5831-b1100105a90f-95a9148b {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-_52aa070c-873b-8f40-1540-7593d5f91468-95a9148b {
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
@@ -8250,6 +8305,25 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
+  #w-node-_0edf51c9-2138-5d81-5831-b1100105a8f3-95a9148b {
+    -ms-grid-column-span: 5;
+    grid-column-end: 5;
+  }
+
+  #w-node-_0edf51c9-2138-5d81-5831-b1100105a8f6-95a9148b {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+  }
+
+  #w-node-_0edf51c9-2138-5d81-5831-b1100105a906-95a9148b {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+  }
+
   #w-node-_52aa070c-873b-8f40-1540-7593d5f91469-95a9148b {
     -ms-grid-column-span: 5;
     grid-column-end: 5;
@@ -8435,6 +8509,11 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+  #w-node-_0edf51c9-2138-5d81-5831-b1100105a8f3-95a9148b {
+    -ms-grid-column-span: 5;
+    grid-column-end: 5;
+  }
+
   #w-node-b416f559-273d-f76b-87e8-a54052e5e260-95a9148b {
     -ms-grid-column-span: 5;
     grid-column-end: 5;
