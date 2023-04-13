@@ -3623,72 +3623,6 @@ figcaption {
   grid-row-end: span 1;
 }
 
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7a9-95a9148b {
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-}
-
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7aa-95a9148b {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  -ms-grid-column-span: 6;
-  grid-column-end: 7;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7b3-95a9148b {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7ba-95a9148b {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  -ms-grid-column-span: 6;
-  grid-column-end: 7;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7c3-95a9148b {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7ca-95a9148b {
-  -ms-grid-column: 6;
-      grid-column-start: 6;
-  -ms-grid-column-span: 7;
-  grid-column-end: 13;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
 #w-node-_0edf51c9-2138-5d81-5831-b1100105a8f3-95a9148b {
   -ms-grid-column: 1;
       grid-column-start: 1;
@@ -8372,29 +8306,6 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7aa-95a9148b {
-    -ms-grid-column-span: 5;
-    grid-column-end: 5;
-  }
-
-  #w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7ba-95a9148b {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    -ms-grid-column-span: 4;
-    grid-column-end: 5;
-    -ms-grid-row: 1;
-        grid-row-start: 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: 2;
-  }
-
-  #w-node-c4b0896c-ffe9-956a-2bc0-a63b01c0c7ca-95a9148b {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    -ms-grid-column-span: 4;
-    grid-column-end: 5;
-  }
-
   #w-node-_0edf51c9-2138-5d81-5831-b1100105a8f3-95a9148b {
     -ms-grid-column-span: 5;
     grid-column-end: 5;
