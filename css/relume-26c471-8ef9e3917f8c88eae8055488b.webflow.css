@@ -1509,6 +1509,13 @@ figcaption {
   width: 100%;
 }
 
+.sideline {
+  width: 2px;
+  height: 3060px;
+  background-color: #000;
+  transform: translate(40px, 158px);
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
@@ -1706,6 +1713,10 @@ figcaption {
 
   .bottomleft-container {
     display: none;
+  }
+
+  .sideline {
+    height: 500px;
   }
 }
 
@@ -2053,6 +2064,10 @@ figcaption {
     width: 100%;
     max-width: 100%;
     padding: 2rem;
+  }
+
+  .sideline {
+    display: none;
   }
 }
 
