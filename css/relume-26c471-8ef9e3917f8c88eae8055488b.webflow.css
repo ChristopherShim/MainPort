@@ -1385,7 +1385,7 @@ figcaption {
   width: 600px;
   max-width: 600px;
   grid-column-gap: 1.5rem;
-  background-color: #1e1e1e;
+  background-color: #6e6e6e;
   border-radius: 8px;
   flex-direction: column;
   justify-content: flex-start;
@@ -1950,7 +1950,7 @@ figcaption {
     display: none;
   }
 
-  .padding-custom2 {
+  .padding-custom1, .padding-custom2 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
