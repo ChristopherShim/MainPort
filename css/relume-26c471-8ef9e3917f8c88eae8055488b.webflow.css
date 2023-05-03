@@ -1399,6 +1399,7 @@ figcaption {
 
 .example_bottom {
   flex-direction: row;
+  align-items: flex-start;
   display: flex;
 }
 
@@ -1418,6 +1419,10 @@ figcaption {
 
 .example_left-text {
   width: 6.25rem;
+}
+
+.example_right-text {
+  line-height: 1.2rem;
 }
 
 .example_work-title {
