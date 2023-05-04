@@ -1467,7 +1467,6 @@ figcaption {
 .nav_logo {
   width: 3rem;
   height: 3rem;
-  transform: rotate(90deg);
 }
 
 .nav_contact {
