@@ -1462,20 +1462,18 @@ figcaption {
   grid-row-gap: 1rem;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .nav_logo {
+  z-index: 3;
   width: 3rem;
   height: 3rem;
+  position: relative;
 }
 
 .nav_contact {
   font-family: Ppmonumentextended, sans-serif;
-}
-
-.nav-wrapper {
-  margin-left: 0;
-  transform: translate(-30px, 16px)rotate(-90deg);
 }
 
 .bottomleft-container {
@@ -1519,6 +1517,27 @@ figcaption {
   height: 3640px;
   background-color: #000;
   transform: translate(40px, 158px);
+}
+
+.nav_logo2 {
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.nav_logo1 {
+  z-index: 3;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+}
+
+.nav_logo3 {
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
 }
 
 @media screen and (max-width: 991px) {
@@ -3302,6 +3321,62 @@ figcaption {
   src: url('../fonts/NeueMontreal-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin sans';
+  src: url('../fonts/Dunkin-Sans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin sans';
+  src: url('../fonts/Dunkin-Sans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin';
+  src: url('../fonts/Dunkin-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin';
+  src: url('../fonts/Dunkin-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin sans';
+  src: url('../fonts/Dunkin-Sans-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin';
+  src: url('../fonts/Dunkin.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin sans';
+  src: url('../fonts/Dunkin-Sans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dunkin';
+  src: url('../fonts/Dunkin-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
   font-display: swap;
 }
 @font-face {
