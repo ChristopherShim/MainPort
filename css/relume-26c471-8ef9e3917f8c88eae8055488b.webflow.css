@@ -1557,6 +1557,7 @@ figcaption {
 .rebuild-text {
   text-transform: uppercase;
   font-family: Ppmonumentextended, sans-serif;
+  font-size: 1.3rem;
   font-weight: 900;
 }
 
@@ -1649,8 +1650,30 @@ figcaption {
   font-weight: 900;
 }
 
-.link-block, .nav_logo1-block {
+.nav_logo1-block {
   z-index: 3;
+  position: absolute;
+}
+
+.rebuild-direct, .webflow-rebuild-color-container {
+  position: relative;
+}
+
+.rebuild-text-white {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Ppmonumentextended, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  position: absolute;
+}
+
+.rebuild-text-gray {
+  color: #6e6e6e;
+  text-transform: uppercase;
+  font-family: Ppmonumentextended, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
   position: absolute;
 }
 
