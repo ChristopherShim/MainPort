@@ -321,6 +321,7 @@ figcaption {
   padding-bottom: 6rem;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .container-medium {
@@ -442,6 +443,10 @@ figcaption {
   padding-right: 4rem;
 }
 
+.padding-custom3 {
+  padding: 1rem;
+}
+
 .margin-top, .margin-top.margin-custom1, .margin-top.margin-huge, .margin-top.margin-small, .margin-top.margin-tiny, .margin-top.margin-custom3, .margin-top.margin-medium, .margin-top.margin-xxsmall, .margin-top.margin-xxhuge, .margin-top.margin-custom2, .margin-top.margin-xsmall, .margin-top.margin-large, .margin-top.margin-xxlarge, .margin-top.margin-xlarge, .margin-top.margin-0, .margin-top.margin-xhuge {
   margin-bottom: 0;
   margin-left: 0;
@@ -530,6 +535,10 @@ figcaption {
 
 .text-size-medium {
   font-size: 1.125rem;
+}
+
+.text-size-medium.rebuild-description {
+  font-family: Neuemontrealz, sans-serif;
 }
 
 .margin-top-auto {
@@ -1465,13 +1474,6 @@ figcaption {
   position: relative;
 }
 
-.nav_logo {
-  z-index: 3;
-  width: 3rem;
-  height: 3rem;
-  position: relative;
-}
-
 .nav_contact {
   font-family: Ppmonumentextended, sans-serif;
 }
@@ -1514,7 +1516,7 @@ figcaption {
 
 .sideline {
   width: 2px;
-  height: 2960px;
+  height: 2950px;
   background-color: #000;
   transform: translate(40px, 158px);
 }
@@ -1530,13 +1532,125 @@ figcaption {
   z-index: 3;
   width: 3rem;
   height: 3rem;
-  position: absolute;
 }
 
 .nav_logo3 {
   z-index: 2;
   width: 3rem;
   height: 3rem;
+  position: absolute;
+}
+
+.rebuild-text-container {
+  grid-column-gap: .5rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.rebuild-text {
+  text-transform: uppercase;
+  font-family: Ppmonumentextended, sans-serif;
+  font-weight: 900;
+}
+
+.cursor-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.cursor {
+  width: 25px;
+  height: 25px;
+  opacity: .5;
+  background-color: #5a5858;
+  border-radius: 100%;
+}
+
+.cursor-border {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.border {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+
+.rebuild-arrow {
+  width: 20px;
+}
+
+.header27_component {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.mainrebuild-wrapper {
+  grid-row-gap: 9.5rem;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.sideline-rebuild {
+  width: 2px;
+  height: 700px;
+  background-color: #000;
+  transform: translate(40px, 158px);
+}
+
+.grid_image {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.rebuild-image {
+  border-radius: .25rem;
+}
+
+.rebuild-link {
+  background-color: #6e6e6e;
+  border-radius: .25rem;
+  padding: 1rem;
+}
+
+.rebuild-header {
+  font-family: Ppmonumentextended, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.link-block, .nav_logo1-block {
+  z-index: 3;
   position: absolute;
 }
 
@@ -1739,7 +1853,7 @@ figcaption {
     display: none;
   }
 
-  .sideline {
+  .sideline, .sideline-rebuild {
     height: 500px;
   }
 }
@@ -2090,7 +2204,7 @@ figcaption {
     padding: 2rem;
   }
 
-  .sideline {
+  .nav-wrapper-top, .sideline, .sideline-rebuild {
     display: none;
   }
 }
@@ -3264,6 +3378,10 @@ figcaption {
 
 #w-node-_9a3cb5be-cc97-b70e-6a89-31a359369554-557ee055 {
   justify-self: start;
+}
+
+#w-node-_4888fb2b-f911-705e-318b-8465485fcf44-c251b0c4, #w-node-_9e71cac3-084a-b48a-1511-784fd67cce19-c251b0c4, #w-node-_4966e76f-ff29-7991-0752-c56c9435cbd0-c251b0c4, #w-node-f761b784-2c09-9dca-7244-fc9a628ab319-c251b0c4, #w-node-c1ccbd00-01fa-5ac2-17c0-52d10a5db4e8-c251b0c4, #w-node-_7d9064bf-9b3c-143a-dfb9-a46b1ef6ddac-c251b0c4, #w-node-_5eb99f37-5dfa-4ece-059f-532a5120d954-c251b0c4, #w-node-_6428b0fa-0419-1cd5-3c20-2d149b40a817-c251b0c4 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 
