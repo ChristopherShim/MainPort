@@ -1628,6 +1628,7 @@ figcaption {
 .grid_image {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  flex: none;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -1872,12 +1873,17 @@ figcaption {
     flex: 1;
   }
 
-  .bottomleft-container {
+  .bottomleft-container, .nav-wrapper-top {
     display: none;
   }
 
-  .sideline, .sideline-rebuild {
+  .sideline {
     height: 500px;
+  }
+
+  .sideline-rebuild {
+    height: 500px;
+    display: none;
   }
 }
 
@@ -2229,6 +2235,14 @@ figcaption {
 
   .nav-wrapper-top, .sideline, .sideline-rebuild {
     display: none;
+  }
+
+  .grid_image {
+    grid-template-columns: 1fr;
+  }
+
+  .rebuild-header {
+    font-size: 1.3rem;
   }
 }
 
