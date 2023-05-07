@@ -1881,6 +1881,10 @@ figcaption {
     height: 500px;
   }
 
+  .cursor-wrapper, .cursor-border {
+    display: none;
+  }
+
   .sideline-rebuild {
     height: 500px;
     display: none;
