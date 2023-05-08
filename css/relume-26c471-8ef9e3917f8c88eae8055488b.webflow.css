@@ -1508,7 +1508,11 @@ figcaption {
 }
 
 .role-italic {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: black;
   font-style: italic;
+  font-weight: 900;
 }
 
 .example_link-block {
@@ -1517,7 +1521,7 @@ figcaption {
 
 .sideline {
   width: 2px;
-  height: 2950px;
+  height: 3040px;
   background-color: #000;
   transform: translate(40px, 158px);
 }
@@ -1645,6 +1649,7 @@ figcaption {
   background-color: #6e6e6e;
   border-radius: .25rem;
   padding: 1rem;
+  position: relative;
 }
 
 .rebuild-header {
@@ -1678,6 +1683,129 @@ figcaption {
   font-size: 1.3rem;
   font-weight: 900;
   position: absolute;
+}
+
+.div-block {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.top-left-corner {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 2%;
+  bottom: auto;
+  left: 1%;
+  right: auto;
+}
+
+.top-right-corner {
+  width: 10px;
+  height: 10px;
+  background-color: #6e6e6e;
+  border-radius: 100%;
+  position: absolute;
+  top: 2%;
+  bottom: auto;
+  left: auto;
+  right: 1%;
+}
+
+.bottom-right-corner {
+  width: 10px;
+  height: 10px;
+  background-color: #6e6e6e;
+  border-radius: 100%;
+  position: absolute;
+  top: auto;
+  bottom: 2%;
+  left: 1%;
+  right: auto;
+}
+
+.bottom-left-corner {
+  width: 10px;
+  height: 10px;
+  background-color: #6e6e6e;
+  border-radius: 100%;
+  position: absolute;
+  top: auto;
+  bottom: 2%;
+  left: auto;
+  right: 1%;
+}
+
+.white-dot {
+  z-index: 3;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border: 1.5px solid #6e6e6e;
+  border-radius: 100%;
+  position: absolute;
+  top: 1.5%;
+  bottom: auto;
+  left: .8%;
+  right: auto;
+}
+
+.black-dot {
+  z-index: 1;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border: 1.5px solid #6e6e6e;
+  border-radius: 100%;
+  position: absolute;
+  top: 1.5%;
+  bottom: auto;
+  left: .8%;
+  right: auto;
+}
+
+.gray-dot {
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  background-color: #904c4c;
+  border-radius: 100%;
+  position: absolute;
+  top: 1.5%;
+  bottom: auto;
+  left: .8%;
+  right: auto;
+}
+
+.gray-dot.brown {
+  z-index: 2;
+  background-color: #d9d9d6;
+  border: 1.5px solid #6e6e6e;
+}
+
+.rebuild-text-container-topright {
+  grid-column-gap: .5rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  padding-right: 4rem;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.buttonid {
+  -webkit-text-stroke-color: white;
+  background-color: #000;
+  border-radius: .25rem;
+  font-family: Neuemontrealz, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -1877,6 +2005,11 @@ figcaption {
 
   .bottomleft-container, .nav-wrapper-top {
     display: none;
+  }
+
+  .role-italic {
+    letter-spacing: -.4rem;
+    -webkit-text-stroke-width: 5px;
   }
 
   .sideline {
@@ -2123,6 +2256,20 @@ figcaption {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
+  .role-header {
+    font-size: 4rem;
+  }
+
+  .role-italic {
+    letter-spacing: -.3rem;
+    -webkit-text-stroke-width: 5px;
+  }
+
+  .grid_image {
+    grid-template-rows: 1fr auto auto auto;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2219,7 +2366,7 @@ figcaption {
 
   .role-header {
     letter-spacing: -.25rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .example_container {
@@ -2239,7 +2386,16 @@ figcaption {
     padding: 2rem;
   }
 
-  .nav-wrapper-top, .sideline, .sideline-rebuild {
+  .nav-wrapper-top {
+    display: none;
+  }
+
+  .role-italic {
+    letter-spacing: -.1rem;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .sideline, .sideline-rebuild {
     display: none;
   }
 
