@@ -1742,6 +1742,11 @@ figcaption {
   color: #4353ff;
 }
 
+.home-direct {
+  z-index: 3;
+  position: relative;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
