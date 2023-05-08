@@ -1808,6 +1808,10 @@ figcaption {
   font-family: Neuemontrealz, sans-serif;
 }
 
+.fast-span {
+  font-style: italic;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
