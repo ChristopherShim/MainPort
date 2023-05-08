@@ -1442,6 +1442,7 @@ figcaption {
 .example_image {
   width: 100%;
   object-fit: cover;
+  object-position: 50% 0%;
   border-radius: 8px;
 }
 
