@@ -1366,7 +1366,7 @@ figcaption {
 }
 
 .about_info-wrapper {
-  width: 400px;
+  width: 250px;
   grid-row-gap: 1rem;
   flex-direction: column;
   font-family: Neuemontrealz, sans-serif;
