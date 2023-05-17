@@ -1585,7 +1585,7 @@ figcaption {
 .cursor-wrapper {
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   top: 0%;
   bottom: 0%;
@@ -1604,7 +1604,7 @@ figcaption {
 .cursor-border {
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   top: 0%;
   bottom: 0%;
