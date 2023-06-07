@@ -1537,7 +1537,7 @@ figcaption {
 
 .sideline {
   width: 2px;
-  height: 5065px;
+  height: 4925px;
   background-color: #000;
   transform: translate(40px, 158px);
 }
@@ -1644,7 +1644,7 @@ figcaption {
 
 .sideline-rebuild {
   width: 2px;
-  height: 1300px;
+  height: 750px;
   background-color: #000;
   transform: translate(40px, 158px);
 }
@@ -1692,6 +1692,7 @@ figcaption {
 
 .padding-custom_rebuild {
   padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .padding-custom_rebuild-bottom {
